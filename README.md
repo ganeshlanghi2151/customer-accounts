@@ -1,17 +1,41 @@
-# Customer Accounts Microservice
 
-This project implements a RESTful Customer Accounts microservice as part of the DevOps Capstone Assignment.
+# DevOps Capstone
 
-## Build Status
+Customer Accounts REST API microservice developed as part of the DevOps Capstone project.
 
-![Build Status](https://github.com/YOUR-GITHUB-USERNAME/customer-accounts/actions/workflows/ci-build.yaml/badge.svg)
+## Project Overview
+
+This project provides a RESTful service for managing customer accounts. It demonstrates automated testing, continuous integration, containerization, and deployment to Kubernetes.
 
 ## Features
 
-- Create customer accounts
-- Read customer account details
-- List all customer accounts
-- Update customer accounts
-- Delete customer accounts
-- Automated testing and continuous integration
-- Docker containerization and Kubernetes deployment
+- Create a customer account
+- Read an account
+- Update an account
+- Delete an account
+- List all accounts
+- Automated linting and unit testing
+- Docker containerization
+- Kubernetes deployment
+- Continuous integration and deployment
+
+## Continuous Integration
+
+Build status:
+
+<!-- Replace the badge URL with the actual GitHub Actions workflow badge for this repository. -->
+![Build Status](https://github.com/ganeshlanghi2151/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
+## Technology Stack
+
+- Python
+- Flask
+- Nose tests
+- Flake8
+- GitHub Actions
+- Docker
+- Kubernetes
+
+## Running Tests
+
+Install the project dependencies and run the project's test suite using the commands documented in the project configuration.
