@@ -1,16 +1,13 @@
 
 from flask import Flask
-from flask_talisman import Talisman
 from flask_cors import CORS
+from flask_talisman import Talisman
 
-app = Flask(__name__)
+def create_app():
+    app = Flask(__name__)
 
-Talisman(
-    app,
-    force_https=False,
-    content_security_policy={
-        "default-src": ["'self'"],
-    },
-)
+    # Configure the application's existing settings here.
+    CORS(app)
+    Talisman(app)
 
-CORS(app)
+    return app
